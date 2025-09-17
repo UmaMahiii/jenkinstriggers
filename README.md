@@ -16,7 +16,7 @@ Popular Triggers in Jenkins
 • Configure in job → Build Triggers → Poll SCM.
 • Use cron syntax (5 fields: minute, hour, day of month, month, day of week).
   Example:
-    * * * * *     → every minute
+     * * * * *     → every minute
     H/5 * * * *   → every 5 minutes
 • Test: Make a commit; Jenkins will detect it during the next poll and trigger the job.
 3. Scheduled Job (Build Periodically)
